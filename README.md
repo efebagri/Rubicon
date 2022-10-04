@@ -1,5 +1,5 @@
 # ⚠️  This project is not ready to use. ⚠️
-![gh-banner](https://www.swmhp.org/assets/uploads/2016/10/Framework-Logo-e1482348240552.jpg)
+![gh-banner](https://i.imgur.com/fRVIy4h.png)
 # ☁️ Rubicon
 Rubicon is a functional based, beginner friendly micro framework written in PHP. The Goal is to help beginners to move with this framework to the professional ones
 
@@ -27,15 +27,18 @@ To Install Framework, follow these instructions:
 You need to add your domain to Pleak, next you need to upload the framework to your webspace and install Composer under "PHP Composer". As a last step you have to import the database under "Database" and enter the access data in the .env file. If you go under "Hosting and DNS" on "Hosting Settings" add under "Document root" /public then the framework should already work.
 
 # 📑 Features
-- [ ] Debug system
-- [ ] Database Support (MySQL & MongoDB)
+- [X] Debug system
+- [X] Database Support (MySQL & MongoDB)
 - [ ] Modular system
 - [ ] Auth Module
+- [ ] Hompage Module
 - [ ] Autoloader functions
 - [ ] PermissionsSystem
+
 # 🙏 Thanks to:
 ### 🧑🏻‍🤝‍🧑🏻 Contributors
 * Razetro
+
 ### 🚧 Used Open-Source projects
 * [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv)
 * [filp/whoops](https://github.com/filp/whoops)
