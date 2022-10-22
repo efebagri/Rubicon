@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+
+    RewriteEngine on
+    RewriteBase /
+
+    #errors
+    RewriteRule ^404/?$ index.php?page=404 [L]
+
+	#index
+	RewriteRule ^/?$ index.php?page=homepage [L]
+	RewriteRule ^dashboard?$ index.php?page=dashboard [L]
+
+	#legal
+	RewriteRule ^imprint?$ index.php?page=imprint [L]
+    RewriteRule ^privacy?$ index.php?page=privacy [L]
+    RewriteRule ^terms?$ index.php?page=terms [L]
+
+</IfModule>
