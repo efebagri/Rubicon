@@ -6,6 +6,10 @@
     #errors
     RewriteRule ^404/?$ index.php?page=404 [L]
 
+    #auth
+    RewriteRule ^login?$ index.php?page=login [L]
+    RewriteRule ^register?$ index.php?page=register [L]
+
 	#index
 	RewriteRule ^/?$ index.php?page=homepage [L]
 	RewriteRule ^dashboard?$ index.php?page=dashboard [L]
