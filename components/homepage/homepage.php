@@ -1,4 +1,4 @@
 <?php
-$currPage = 'main_Das komplette Leistungsspektrum rund um Druckluft, Kompressor und Vakuum';
+$currPage = 'main_Homepage';
 include BASE_PATH . 'Module/Core/PageController.php';
 ?>
