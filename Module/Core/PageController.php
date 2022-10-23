@@ -74,3 +74,5 @@ if (strpos($currPage,'system_') !== false) {} else {
         }
     }
 }
+
+include BASE_PATH.'Module/Notifications/sendAlert.php';
