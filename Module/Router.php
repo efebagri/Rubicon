@@ -1,6 +1,8 @@
 <?php
 $resources = BASE_PATH.'components/';
 $homepage = $resources.'homepage/';
+$auth = $resources.'auth/';
+$panel = $resources.'panel/';
 $legal = $resources.'legal/';
 $page = $system->protect($_GET['page']);
 
@@ -10,8 +12,15 @@ if(isset($_GET['page'])) {
         // errors
         default: include($legal . "404.php"); break;
 
+        // homepage
+        case "homepage": include($homepage . "homepage.php"); break;
+
+        // auth
+        case "login": include($auth . "login.php"); break;
+        case "register": include($auth . "register.php"); break;
+
         // index
-        case "dashboard": include($homepage . "homepage.php"); break;
+        case "dashboard": include($panel . "dashboard.php"); break;
 
         // legal
         case "imprint": include($legal . "imprint.php"); break;
