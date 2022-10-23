@@ -10,12 +10,12 @@
     RewriteRule ^login?$ index.php?page=login [L]
     RewriteRule ^register?$ index.php?page=register [L]
 
-	#index
-	RewriteRule ^/?$ index.php?page=homepage [L]
-	RewriteRule ^dashboard?$ index.php?page=dashboard [L]
+    #index
+    RewriteRule ^/?$ index.php?page=homepage [L]
+    RewriteRule ^dashboard?$ index.php?page=dashboard [L]
 
-	#legal
-	RewriteRule ^imprint?$ index.php?page=imprint [L]
+    #legal
+    RewriteRule ^imprint?$ index.php?page=imprint [L]
     RewriteRule ^privacy?$ index.php?page=privacy [L]
     RewriteRule ^terms?$ index.php?page=terms [L]
 
