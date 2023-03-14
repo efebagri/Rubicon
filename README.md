@@ -17,7 +17,7 @@ https://github.com/Razetro/Rubicon/wiki
 
 # 🙏 Thanks to:
 ### 🧑🏻‍🤝‍🧑🏻 Contributors
-* Razetro
+* EfeBagri
 
 ### 🚧 Used Open-Source projects
 * [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv)
